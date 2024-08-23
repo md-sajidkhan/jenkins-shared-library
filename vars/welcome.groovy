@@ -1,5 +1,5 @@
 def call(){
-  def greet = new com.test.Greet()
+  def greet = new com.test.Greet(this)
   def hello = greet.greeting()
   echo "${hello}"
 }
