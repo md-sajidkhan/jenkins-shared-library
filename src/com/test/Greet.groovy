@@ -1,4 +1,6 @@
 package com.test
 class Greet{
-  return steps.libraryResource('text.txt')
+  def greeting(){
+    return steps.libraryResource('text.txt')
+  }
 }
