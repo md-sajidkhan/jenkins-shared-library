@@ -1,6 +1,6 @@
 package com.test
 
-class Double implements Serializable {
+class Double {
     def multiplyByTwo(int number) {
         return number * 2
     }
